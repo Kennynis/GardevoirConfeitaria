@@ -39,3 +39,51 @@ img {
 .footer-link:hover{
     color: #F0C260;
 }
+
+/*CARD*/
+
+.card-verde{
+  background-color: #A1E4C3; 
+  color: #000000; 
+  padding: 15px; 
+  text-align: center; 
+  font-family: 'Jacques Francois', serif; 
+  font-size: 13px;
+  
+}
+
+/*PRODUTOS*/
+
+.gradiente-produtos {
+  background: linear-gradient(to top, #434343, #464646);
+  height: 340px;
+  width: 98%;
+  margin: 0 auto;
+}
+
+.carousel {
+  position: relative;
+}
+
+.ajuste-carrossel {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.ajuste-carrossel img {
+    height: auto;
+    object-fit: cover;
+}
+
+.carousel-control-prev {
+    left: 20% !important;
+}
+
+.carousel-control-next {
+    right: 20% !important;
+}
+
+/*H1 DOS PRODUTOS...*/
+h1 {
+   font-size: 44px;
+}
