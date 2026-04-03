@@ -68,6 +68,9 @@ img {
 .ajuste-carrossel {
   max-width: 700px;
   margin: 0 auto;
+  align-items: center;
+  margin-right: 400px;
+  margin-top: 30px;
 }
 
 .ajuste-carrossel img {
@@ -87,3 +90,38 @@ img {
 h1 {
    font-size: 44px;
 }
+
+.enfase:hover{
+  color: #F0C260;
+}
+
+.botao-orcamento{
+  background-color: #F0C260;
+  font-family: 'Jacques Francois', serif;
+  
+  color: #2B2B2B;
+  border: none;
+  border-radius: 26px;
+  
+}
+.botao-orcamento:hover{
+  background-color: #f4bd46;
+}
+
+.titulos-produtos{
+  color: #F0C260;
+  font-family: 'Jacques Francois', serif;
+  text-align: center;
+}
+
+/*CURSOS */
+
+/*card cursos*/
+.botao-saiba-mais {
+  font-family: 'Jacques Francois', serif; 
+  text-align: center; 
+  background-color: #661647; 
+  color: white; 
+  border-radius: 50px
+}
+
