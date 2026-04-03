@@ -125,3 +125,20 @@ h1 {
   border-radius: 50px
 }
 
+/*CONTATO*/
+
+.localizacao {
+  font-family: 'Jacques Francois', serif;
+  font-size: 16x;
+}
+
+.redes-sociais{
+  text-decoration: none;
+  color: #F0C260;
+  
+}
+
+.redes-sociais:hover{
+  color: #661647;
+  text-decoration: underline ;
+}
