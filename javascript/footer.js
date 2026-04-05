@@ -1,7 +1,7 @@
 class Footer extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `        
-        <footer class="pt-3">
+        <footer class="py-3">
             <div class="container-fluid text-center text-white" style="background-color: #2B2B2B; height: 250px;;">
 
                 <div style="display: flex; align-items: center; justify-content: space-between; max-width: 1000px; margin: 0 auto;"> 
@@ -14,11 +14,11 @@ class Footer extends HTMLElement {
                         <ul class="footer-link"style="list-style: none; padding: 0; margin: 0;">
                             <li class="bottom-menu" style="color: #F0C260;">Páginas</li>
                             <li class="bottom-menu footer-link" style="margin-top: 15px"><a class="footer-link" href=#>Início</a></li>
-                            <li class="bottom-menu footer-link"><a class="footer-link" href=./produtos.html> Produtos</a></li>
-                            <li class="bottom-menu footer-link"><a class="footer-link" href=./cursos.html>Cursos</a></li>
-                            <li class="bottom-menu footer-link"><a class="footer-link" href=./localizacao.html>Localização</a></li>
+                            <li class="bottom-menu footer-link"><a class="footer-link" href=#> Produtos</a></li>
+                            <li class="bottom-menu footer-link"><a class="footer-link" href=#>Cursos</a></li>
+                            <li class="bottom-menu footer-link"><a class="footer-link" href=#>Localização</a></li>
                             <li class="bottom-menu footer-link"><a class="footer-link" href=#>Sobre nós</a></li>
-                            <li class="bottom-menu footer-link"><a class="footer-link" href=./contato.html>Contate-nos</a></li>
+                            <li class="bottom-menu footer-link"><a class="footer-link" href=#>Contate-nos</a></li>
                         </ul>
                     </div>
 
@@ -30,34 +30,12 @@ class Footer extends HTMLElement {
                             <li class="bottom-menu">Curitiba - PR, 80510-250</li>
                             <li class="bottom-menu" style="margin-top: 10px;">Whatsapp: (41) 98888-9595</li>
                         </ul>
-
-                        <div style="margin-top: 15px;">
-                        
-                            <a href="https://www.facebook.com.br" style="color:#F0C260; padding:10px; text-decoration: none;">
-                                <i class="fa-brands fa-facebook-f"></i>
-                            </a>
-
-                            <a href="https://x.com/?lang=pt" style="color:#F0C260; padding:10px; text-decoration: none;">
-                                <i class="fa-brands fa-x-twitter"></i>
-                            </a>
-
-                            <a href="https://www.youtube.com.br" style="color:#F0C260; padding:10px; text-decoration: none;">
-                                <i class="fa-brands fa-youtube"></i>
-                            </a>
-
-                            <a href="https://web.whatsapp.com/" style="color:#F0C260; padding:10px; text-decoration: none;">
-                                <i class="fa-brands fa-whatsapp"></i>
-                            </a>
-
-                            <a href="https://www.linkedin.com.br" style="color:#F0C260; padding:10px; text-decoration: none;">
-                                <i class="fa-brands fa-linkedin-in"></i>
-                            </a>
-                        </div>
-                        </div>
+                        <img src="/img/footer-icons.png" style="width: 150px; heigh: 50px; margin-top: 15px;">
+                    </div>
 
                 </div>
             </div>
-            <div class="container-fluid text-center text-center pt-2" style="background-color: #8F2738; color: #E6BFD2;">
+            <div class="container-fluid text-center text-center py-2" style="background-color: #8F2738; color: #E6BFD2; margin-bottom: 0;">
                 <span class="mx-auto text-footer" style="color: #E6BFD2">
                     2025 © Gardevoir Confeitaria - Confeitaria
                 </span>
