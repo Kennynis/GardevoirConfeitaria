@@ -11,27 +11,27 @@ class Navbar extends HTMLElement {
           <ul class="navbar-nav">
 
             <li class="nav-item">
-              <a class="nav-link" href="#">Início</a>
+              <a class="nav-link" href="index.html">Início</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#">Produtos</a>
+              <a class="nav-link" href="produtos.html">Produtos</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#">Cursos</a>
+              <a class="nav-link" href="cursos.html">Cursos</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#">Localização</a>
+              <a class="nav-link" href="localizacao.html">Localização</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#">Sobre nós</a>
+              <a class="nav-link" href="sobrenos.html">Sobre nós</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#">Contato</a>
+              <a class="nav-link" href="contato.html">Contato</a>
             </li>
 
           </ul>
