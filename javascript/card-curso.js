@@ -11,7 +11,7 @@ class CardCurso extends HTMLElement {
           <h6>${titulo}</h6>
           <p>${descricao}</p>
           <div class="estrelas">★★★★★</div>
-          <button class="btn btn-dark w-100 mt-2">Ver curso</button>
+          <button class="btn w-100 mt-2">Ver curso</button>
         </div>
       </div>
     `;

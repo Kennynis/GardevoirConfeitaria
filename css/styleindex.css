@@ -192,3 +192,20 @@ html, body {
   cursor: pointer;
   transition: background-color 0.3s, transform 0.2s;
 }
+
+.curso-card button {
+  background-color: #F0C260; 
+  color: #2B2B2B;                
+  font-family: 'Abhaya Libre', serif;           
+  font-weight: bold;         
+  border-radius: 450px;        
+  border: none;               
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+ }
+
+ .curso-card button:hover{
+  background-color: #F0C260;
+  border: none;
+  box-shadow: none; /* remove aquele brilho azul ao clicar */
+}
